@@ -1,5 +1,5 @@
 class Pluq < Formula
-  desc "Surgical archive extraction from local and cloud storage — snipe one file out of a huge ZIP/RAR without downloading the whole thing."
+  desc "Snipe one file out of a huge cloud ZIP/RAR without downloading the whole archive"
   homepage "https://github.com/stefandekanski/pluq"
   version "0.1.0"
   if OS.mac?
