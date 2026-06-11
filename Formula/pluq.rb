@@ -5,21 +5,21 @@ class Pluq < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/stefandekanski/pluq/releases/download/v0.1.0/pluq-aarch64-apple-darwin.tar.xz"
-      sha256 "bded48dd7bd384357a3c73e2e00e5385c75b4cb3978d6c97cb856eaa9ede98e5"
+      sha256 "f3ec667b75f59fa0b8272baae6fc11222df7b0cf1d07a5144c883fb48025bf5d"
     end
     if Hardware::CPU.intel?
       url "https://github.com/stefandekanski/pluq/releases/download/v0.1.0/pluq-x86_64-apple-darwin.tar.xz"
-      sha256 "940e32957828b3b3174eab237b833c317f2d17275dde3bc2c0343c9dcf7d54f1"
+      sha256 "4d94f687a7d41a20e9664587e3f7e28f09d72ff02c3cccb7d98ace249616873d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/stefandekanski/pluq/releases/download/v0.1.0/pluq-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "7bb8fdee67de863aa44b384fdd66cc9c90d43caf81f2bbfb105c98d61e5c4dfb"
+      sha256 "79b3feae5d70370d37655feeacaac80b70b56b6b2fe17b9a25471d89f3961b3b"
     end
     if Hardware::CPU.intel?
       url "https://github.com/stefandekanski/pluq/releases/download/v0.1.0/pluq-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "02fd6b9bc05621ee907f7ee90b000fb220c68a4a17b13c332b199aeea0a7a215"
+      sha256 "fc9d6d9cb8f66cd27c5c023bd6ac14ae85da389dc913218d0679244d9e1e2db7"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
